@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   
-  match "/admin" => redirect("/casein"), :via => :get
+  #match "/admin" => redirect("/casein"), :via => :get
   
   namespace :casein do
   
